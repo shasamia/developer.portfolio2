@@ -80,7 +80,7 @@ padding: 130px 150px;
 text-align: center;
 }
 .about-title{
-    /* text-align: center; */
+    text-align: center;
     margin-bottom: 30px;
     font-weight: 700px;
     font-size: 35px;
@@ -100,6 +100,7 @@ text-align: center;
 .about-info-title{
     font-size: 20px;
     color: #757575;
+    margin-top: 130px;
 
 }
 .info-descriped{
@@ -107,4 +108,130 @@ text-align: center;
     font-weight: 700px;
     color: #474747;
 }
+/* what i do */
+.what-i-do{
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 130px;
+    font-size: 35px;
+}
+.skill-cont{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFF8F3;
+    box-shadow: 0px 0px 50px  rgba(130, 128, 128, 0.6);
+    /* box-shadow: 0px 50px 0px lightgray(1,1,1,1); */
+    border-radius: 5px;
+    padding: 40px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.skill-descriped{
+    color: #474747;
+}
 
+/* resume style */
+.resume{
+    /* display: flex;
+    gap: 34px; */
+}
+.section-title{
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 130px;
+    font-size: 35px;
+}
+.resume-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700px;
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.descriped{
+color:burlywood;
+margin-top: 10px;
+}
+.resume-cont{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.title{
+margin-top: 10px;
+margin-bottom: 10px;
+/* color: #757575; */
+}
+ 
+   
+}
+ .resume-item{
+   /* margin-bottom: 20px;
+   margin-top: 10px; */
+        color: #757575;
+        font-size: 20px;
+        font-weight: 600px;
+         margin-top: 30px;
+         margin-bottom: 30px;
+         
+ }
+    
+.resume-conts{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.resume-contss{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+
+}
+.resume-btn{
+    margin: 50px;;
+    text-align: center;
+}
+
+/* contract */
+.contract{
+    display: flex;
+    background-color: rgb(248, 247, 246);
+    gap: 100px;
+    padding: 130px 200px;
+}
+.contract.section-title{
+    text-align: left;
+   
+}
+.contract input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    border: 0px;
+    width: 100%;
+    padding:18px 30px;
+}
+input{
+    height: 54px;
+}
+textarea{
+    height:64 ;
+}
+.contract a{
+    text-decoration: none;
+    
+}
